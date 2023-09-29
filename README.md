@@ -47,15 +47,17 @@ Based on this dataset an SVM was trained and compared to other models and [AutoM
 |  | AutoML\_30 | 0.381 | 0.536 |
 |  | RF | 0.170 | 0.289 |
 
-## Publications
-
+## Publication
+The original paper can be found on [arxiv](https://arxiv.org/abs/2307.08359).  
 If you use this dataset in scientific publications, please use this citation.
 ```
-@inproceedings{zachariae-etal-conf-ias-year,
-    author = {Zachariae, Andreas and Widera, Julia and Hein, Bj{\"o}rn and Wurll, Christian},
-    title = {Human Emergency Detection During Autonomous Hospital Transports},
-    booktitle = {Proceedings of The 18th International Conference on Intelligent Autonomous Systems},
-    year = {2023}
+@misc{zachariae2023human,
+      title={Human Emergency Detection during Autonomous Hospital Transports}, 
+      author={Andreas Zachariae and Julia Widera and Frederik Plahl and Björn Hein and Christian Wurll},
+      year={2023},
+      eprint={2307.08359},
+      archivePrefix={arXiv},
+      primaryClass={cs.RO}
 }
 ```
 
