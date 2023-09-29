@@ -28,17 +28,7 @@ There are three different use cases for this dataset which correspond to the tra
 
 Detailed labels with 22 classes were created manually. These include different stages of falling and specific everyday situations. The final output classes relevant for emergency detection are derived from these labels. For testing 5618 (31 %) images are used. The other part is used for training with a 5-fold cross validation. The dataset split is made on video level, so that no image from the same video is in both sets. The test set also contains videos of people who do not appear in the training set. A reduced version without the original images, but with all the keypoints from OpenPose and corresponding depth data, already filtered by the relevant patient can be found here to be used by other researchers. The PeTRA dataset is released under the CC BY-NC 4.0 license.
 
-## Publications
-
-If you use this dataset in scientific publications, please use this citation.
-```
-@inproceedings{zachariae-etal-conf-ias-year,
-    author = {Zachariae, Andreas and Widera, Julia and Hein, Bj{\"o}rn and Wurll, Christian},
-    title = {Human Emergency Detection During Autonomous Hospital Transports},
-    booktitle = {Proceedings of The 18th International Conference on Intelligent Autonomous Systems},
-    year = {2023}
-}
-```
+## Evaluation
 
 Based on this dataset an SVM was trained and compared to other models and [AutoML](https://github.com/automl/auto-sklearn)
 
@@ -56,6 +46,18 @@ Based on this dataset an SVM was trained and compared to other models and [AutoM
 |  | MLP\_thresh | 0.414 | 0.540 |
 |  | AutoML\_30 | 0.381 | 0.536 |
 |  | RF | 0.170 | 0.289 |
+
+## Publications
+
+If you use this dataset in scientific publications, please use this citation.
+```
+@inproceedings{zachariae-etal-conf-ias-year,
+    author = {Zachariae, Andreas and Widera, Julia and Hein, Bj{\"o}rn and Wurll, Christian},
+    title = {Human Emergency Detection During Autonomous Hospital Transports},
+    booktitle = {Proceedings of The 18th International Conference on Intelligent Autonomous Systems},
+    year = {2023}
+}
+```
 
 ## License
 
