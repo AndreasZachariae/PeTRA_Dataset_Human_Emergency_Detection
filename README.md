@@ -48,20 +48,25 @@ Based on this dataset an SVM was trained and compared to other models and [AutoM
 |  | RF | 0.170 | 0.289 |
 
 ## Publication
-The original paper can be found on [arxiv](https://arxiv.org/abs/2307.08359).  
+The original paper can be found on [Springer](https://link.springer.com/10.1007/978-3-031-44981-9_21).  
 If you use this dataset in scientific publications, please use this citation.
 ```
-@article{zachariae_human_2023,
-	title = {Human {Emergency} {Detection} during {Autonomous} {Hospital} {Transports}},
-	copyright = {Creative Commons Attribution Non Commercial Share Alike 4.0 International},
-	url = {https://arxiv.org/abs/2307.08359},
-	doi = {10.48550/ARXIV.2307.08359},
-	abstract = {Human transports in hospitals are labor-intensive and primarily performed in beds to save time. This transfer method does not promote the mobility or autonomy of the patient. To relieve the caregivers from this time-consuming task, a mobile robot is developed to autonomously transport humans around the hospital. It provides different transfer modes including walking and sitting in a wheelchair. The problem that this paper focuses on is to detect emergencies and ensure the well-being of the patient during the transport. For this purpose, the patient is tracked and monitored with a camera system. OpenPose is used for Human Pose Estimation and a trained classifier for emergency detection. We collected and published a dataset of 18,000 images in lab and hospital environments. It differs from related work because we have a moving robot with different transfer modes in a highly dynamic environment with multiple people in the scene using only RGB-D data. To improve the critical recall metric, we apply threshold moving and a time delay. We compare different models with an AutoML approach. This paper shows that emergencies while walking are best detected by a SVM with a recall of 95.8\% on single frames. In the case of sitting transport, the best model achieves a recall of 62.2\%. The contribution is to establish a baseline on this new dataset and to provide a proof of concept for the human emergency detection in this use case.},
-	urldate = {2023-11-10},
-	journal = {Intelligent Autonomous Systems 18},
+@incollection{lee_human_2024,
+	address = {Cham},
+	title = {Human {Emergency} {Detection} {During} {Autonomous} {Hospital} {Transports}},
+	volume = {794},
+	copyright = {All rights reserved},
+	isbn = {978-3-031-44980-2 978-3-031-44981-9},
+	url = {https://link.springer.com/10.1007/978-3-031-44981-9_21},
+	language = {en},
+	urldate = {2024-04-24},
+	booktitle = {Intelligent {Autonomous} {Systems} 18},
+	publisher = {Springer Nature Switzerland},
 	author = {Zachariae, Andreas and Widera, Julia and Plahl, Frederik and Hein, Björn and Wurll, Christian},
-	year = {2023},
-	keywords = {FOS: Computer and information sciences, Robotics (cs.RO)},
+	editor = {Lee, Soon-Geul and An, Jinung and Chong, Nak Young and Strand, Marcus and Kim, Joo H.},
+	year = {2024},
+	doi = {10.1007/978-3-031-44981-9_21},
+	pages = {233--245},
 }
 ```
 
